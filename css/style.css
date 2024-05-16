@@ -1,0 +1,67 @@
+body {
+    background-color: #0D0D0D;
+    color: #f9f6f6 !important;
+    overflow: hidden;
+}
+
+.nav-tab {
+    background-color: #0D0D0D;
+}
+
+.logo {
+    width: 50px;
+    cursor: pointer;
+}
+
+i {
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+a{
+    color: #fff;
+    cursor: pointer;
+}
+input::placeholder{
+  color: rgb(182, 182, 182) !important;
+}
+
+.meal-layer {
+    width: 100%;
+    height: 100%;
+    background-color: #f9f6f6ca;
+    top: 100%;
+    transition: .5s;
+}
+
+.meal:hover .meal-layer {
+    top: 0;
+}
+
+.side-nav-menu {
+    z-index: 99;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.alert {
+    width: fit-content;
+}
+
+.loading-screen {
+    z-index: 999;
+    display: flex;
+}
+
+.inner-loading-screen {
+    position: absolute;
+    z-index: 9;
+    background-color: #0D0D0D;
+    display: flex;
+}
+li{
+transition: color 0.5s;
+cursor: pointer;
+}
